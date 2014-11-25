@@ -34,16 +34,19 @@ public class Persoon
         setGeslacht(geslacht);
 
     }
-    
+
+    /**
+     * constructor voor persoon waar de waarden zelf al meegeleverd worden
+     */
     public Persoon(){
         geboorteDag = 0;
         geboorteMaand = 0;
         geboorteJaar = 0;
         nieuweGeslacht = 'x';
     }
-    
+
     /**
-     * 
+     * met deze methode kun je de burgerservice nummer aanpassen
      */
     public void setBurgerServiceNummer(int BurgerServiceNummer)
     {
@@ -51,7 +54,7 @@ public class Persoon
     }
 
     /**
-     * 
+     * met deze methode kun je de voornaam aanpassen
      */
     public void setVoornaam(String voornaam)
     {
@@ -59,7 +62,7 @@ public class Persoon
     }
 
     /**
-     * 
+     * met deze methode kun je de achternaam aanpassen
      */
     public void setAchternaam(String achternaam)
     {
@@ -67,7 +70,7 @@ public class Persoon
     }
 
     /**
-     * 
+     * met deze methode kun je de geboorte datum aanpassen
      */
     public void setGeboorteDatum(int geboorteDag, int geboorteMaand, int geboorteJaar)
     {
@@ -195,21 +198,27 @@ public class Persoon
         return temp;
     }
 
+    /**
+     * met deze methode kun je de voornaam opvragen
+     */
     public String getVoorNaam(){
         return voornaam;
     }
-    
+
+    /**
+     * met deze methode kun je de achternaam opvragen
+     */
     public String getAchterNaam(){
         return achternaam;
     } 
-    
+
     /**
      * geeft het opgegeven burgerServiceNummer weer
      */
     public int getBurgerServiceNummer(){
         return burgerServiceNummer;
     }
-    
+
     /**
      * geeft het opgegeven geslacht weer
      */
@@ -221,7 +230,7 @@ public class Persoon
             return "onbekent";
         }
     }
-    
+
     /**
      * print alle ingevoerde informatie uit
      */
