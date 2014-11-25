@@ -20,6 +20,9 @@ public class Artikel
         naam = naamArtikel;
     }
 
+    /**
+     * met deze methode kun je een object maken zonder parameters op te geven
+     */
     public Artikel (){
 
     }
@@ -51,7 +54,10 @@ public class Artikel
     public String getArtikelNaam(){
         return naam;
     }
-
+    
+   /**
+    * drukt alle gegevens af
+    */
     public void drukAf(){
         System.out.println(prijs);
         System.out.println(naam);
