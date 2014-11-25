@@ -1,7 +1,7 @@
 
 /**
  * Write a description of class Persoon here.
- * 
+ * kek
  * @author (your name) 
  * @version (a version number or a date)
  */
