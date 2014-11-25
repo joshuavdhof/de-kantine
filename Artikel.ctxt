@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=naamArtikel\ prijsArtikel
+comment0.target=Artikel(java.lang.String,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Artikel\r\n
+comment1.params=
+comment1.target=Artikel()
+comment2.params=prijs
+comment2.target=void\ setArtikelPrijs(int)
+comment2.text=\r\n\ Wijst\ artikel\ een\ prijst\ toe\r\n
+comment3.params=naam
+comment3.target=void\ setArtikelNaam(java.lang.String)
+comment3.text=\r\n\ Wijst\ artikel\ een\ naam\ toe\r\n
+comment4.params=
+comment4.target=int\ getArtikelPrijs()
+comment4.text=\r\n\ Geeft\ prijs\ weer\r\n
+comment5.params=
+comment5.target=java.lang.String\ getArtikelNaam()
+comment5.text=\r\n\ Geeft\ naam\ weer\r\n
+comment6.params=
+comment6.target=void\ drukAf()
+numComments=7
